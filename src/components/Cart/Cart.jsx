@@ -5,7 +5,7 @@ const Cart = ({cart}) => {
     // const cart = props.cart  ----> option-1
     // const {cart} = props  ----> option-2
     // option-3 --> props er modhe direct {cart} boshai deya
-   
+  
     let totalPrice = 0;
     let totalShipping = 0;
     for(const product of cart){
