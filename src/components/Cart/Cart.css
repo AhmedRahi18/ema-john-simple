@@ -3,10 +3,25 @@
   padding: 25px;
   position: sticky;
   top: 0;
+  width: auto;
 }
-.cart p{
-    font-size: 17px;
+.cart p {
+  font-size: 17px;
 }
-.cart h6{
-    font-size: 20px;
+.cart h6 {
+  font-size: 20px;
+}
+.btn-clear-cart {
+  width: 90%;
+  height: 56;
+  margin: 10px auto;
+  background: #ff3030;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
